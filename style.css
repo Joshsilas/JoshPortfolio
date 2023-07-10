@@ -6,6 +6,8 @@ html{
 }
 body {
 	background-color:#771668;
+	margin-top:80px;
+
 }
 header{
 	position: fixed;
@@ -15,6 +17,8 @@ header{
 	width:100%;
 	padding: 10px;
 	border:1px solid black;
+	
+	
 }
 
 .nav {
@@ -22,6 +26,26 @@ header{
 	color: white;
 	display: flex;
 	gap:40px;
-	text-decoration: none;
-		
+	text-decoration: none;		
+}
+section{
+			
+}
+
+p.intro{
+	color: white;
+	font-size: 6rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin:0px;
+	align-items: center;
+	gap:0px;
+	
+}
+p.little-intro{
+color: white;
+font-size: 2rem;
+display: flex;
+justify-content: center;
 }
