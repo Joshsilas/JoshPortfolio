@@ -7,11 +7,21 @@ html{
 body {
 	background-color:#771668;
 }
+header{
+	position: fixed;
+	top:0px;
+	left:0px;
+	background-color: #771668;
+	width:100%;
+	padding: 10px;
+	border:1px solid black;
+}
 
 .nav {
-	font-size: 1rem;
-	color: black;
+	font-size: 1.5rem;
+	color: white;
 	display: flex;
-	
-	
+	gap:40px;
+	text-decoration: none;
+		
 }
