@@ -6,7 +6,10 @@ html{
 }
 body {
 	background-color:#771668;
+	width: 100%;
 	margin-top:80px;
+	margin-left:0px;
+	margin-right:0px;
 
 }
 header{
@@ -17,8 +20,7 @@ header{
 	width:100%;
 	padding: 10px;
 	border:1px solid black;
-	
-	
+	z-index:2;
 }
 
 .nav {
@@ -26,9 +28,15 @@ header{
 	color: white;
 	display: flex;
 	gap:40px;
-	text-decoration: none;		
+	text-decoration: none;
+			
 }
-section{
+section.intro{
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 100%;
+		margin-bottom:30px;
 			
 }
 
@@ -44,8 +52,8 @@ p.intro{
 	
 }
 p.little-intro{
-color: white;
-font-size: 2rem;
-display: flex;
-justify-content: center;
+	color: white;
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
 }
