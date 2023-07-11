@@ -112,22 +112,24 @@ section.contact-tidy{
     flex-direction: row;
     flex-wrap: wrap;
     align-content: stretch;
-    justify-content: space-around
+    justify-content: space-between;
+	margin-left:15px;
+	margin-right:15px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
 	section.contact{
    width: 100%;
     height: 300px;
   	background-color:#322245;
 	color: white;}
 	section.about{
-	    width: 100%;
-	    height: 1800px; 
-		background-color: #3C0051;
-		.about-img{
-			width:450px;
-			height:600px;
-			z-index:-10;}			   
+	 width: 100%;
+	 height: 1800px; 
+	 background-color: #3C0051;
+	.about-img{
+	  width:450px;
+	  height:600px;
+	  z-index:-10;}			   
 }
 
