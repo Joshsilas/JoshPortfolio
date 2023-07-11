@@ -112,6 +112,8 @@ h2.portfolio-intro {
 
 p.portfolio-intro {
 	margin-left:15px;
+	color: white;
+	font-size: 1rem;
 }
 
 section.portfolio {
@@ -154,6 +156,23 @@ div.portfolio-piece4 {
 	border: 5px solid black;
 	width: 70%;
 	height: 500px;
+	}
+
+.portfolio-text{
+	display: flex;
+		
+	}
+.container {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+}	
+
+.portfolio-image{
+		width:50%;
+		height:320px;
 	}
 
 section.contact{
