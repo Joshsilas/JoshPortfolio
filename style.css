@@ -94,12 +94,73 @@ p.about{
 	font-size: 1.5rem;
 	margin-left:15px;
 }
+div.portfolio-catcher {
+    width: 100%;
+ 	padding: 10px;
+    background-color: #453952;
+	margin-top:50px;
+}
+section.portfolio-intro { width: 100%;
+    height: 150px;
+  	background-color:#453952;
+	color: white;	
+}
+
+h2.portfolio-intro {
+	margin-left:15px;
+}
+
+p.portfolio-intro {
+	margin-left:15px;
+}
+
+section.portfolio {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+	color: white;
+}
+
+
+div.portfolio-piece1 {
+	background-color: #3e2182;
+	margin-top: 30px;
+	border: 5px solid black;
+	width: 70%;
+	height: 500px;
+	}
+
+div.portfolio-piece2 {
+	background-color: #3e2182;
+	margin-top: 30px;
+	border: 5px solid black;
+	width: 70%;
+	height: 500px;
+	}
+
+div.portfolio-piece3 {
+	background-color: #3e2182;
+	margin-top: 30px;
+	border: 5px solid black;
+	width: 70%;
+	height: 500px;
+	}
+
+div.portfolio-piece4 {
+	background-color: #3e2182;
+	margin-top: 30px;
+	border: 5px solid black;
+	width: 70%;
+	height: 500px;
+	}
 
 section.contact{
     width: 100%;
     height: 100px;
   	background-color:#322245;
-	color: white;
+	color: white;	
 }
 
 h2.contact {
