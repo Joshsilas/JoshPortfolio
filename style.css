@@ -10,16 +10,17 @@ body {
 	margin-top:80px;
 	margin-left:0px;
 	margin-right:0px;
-
+	margin-bottom:0px;
 }
+
 header{
 	position: fixed;
 	top:0px;
 	left:0px;
-	background-color: #771668;
+	background-color: #2d094f;
 	width:100%;
 	padding: 10px;
-	border:1px solid black;
+	border:3px solid black;
 	z-index:2;
 }
 
@@ -36,8 +37,8 @@ section.intro{
 		align-items: center;
 		flex-direction: column;
 		width: 100%;
-		margin-bottom:200px;
-			
+		margin-bottom:250px;
+		gap: 18px;			
 }
 
 p.intro{
@@ -49,14 +50,15 @@ p.intro{
 	margin:0px;
 	align-items: center;
 	gap:0px;
-	
 }
+
 p.little-intro{
 	color: white;
 	font-size: 2rem;
 	display: flex;
 	justify-content: center;
 }
+
 div.about-catcher{
     width: 100%;
  	padding: 10px;
@@ -71,21 +73,21 @@ section.about{
 	    display: flex;
 	    flex-wrap: wrap;
 	    flex-direction: column;
-		position: relative;
-	
+
 }
 
 .about-img{
-	width:450px;
+	width:600px;
 	height:600px;
-	position: absolute;
-	right: 50px;	
+	object-fit:contain;	
+	margin-right: 10px;
 }
 
 h2.about{
 	margin-left:15px;
 	color: white;
-	font-size: 2rem;	
+	font-size: 2rem;
+	text-decoration: underline;	
 }
 
 p.about{
@@ -95,15 +97,125 @@ p.about{
 	margin-left:15px;
 }
 
-section.contact{
+div.portfolio-catcher {
     width: 100%;
-    height: 100px;
-  	background-color:#322245;
+ 	padding: 10px;
+    background-color: #453952;
+	margin-top:50px;
+}
+
+section.portfolio-intro { width: 100%;
+    height: 150px;
+  	background-color:#453952;
+	color: white;	
+}
+
+h2.portfolio-intro {
+	margin-left:15px;
+	text-decoration: underline;
+}
+
+p.portfolio-intro {
+	margin-left:15px;
 	color: white;
+	font-size: 1rem;
+}
+
+section.portfolio {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+	color: white;
+}
+
+
+div.portfolio-piece1 {
+	background-color: #3e2182;
+	margin-top: 30px;
+	border: 5px solid black;
+	width: 70%;
+	height: 600px;
+	}
+
+div.portfolio-piece2 {
+	background-color: #3e2182;
+	margin-top: 30px;
+	border: 5px solid black;
+	width: 70%;
+	height: 600px;
+	}
+
+div.portfolio-piece3 {
+	background-color: #3e2182;
+	margin-top: 30px;
+	border: 5px solid black;
+	width: 70%;
+	height: 600px;
+	}
+
+div.portfolio-piece4 {
+	background-color: #3e2182;
+	margin-top: 30px;
+	border: 5px solid black;
+	width: 70%;
+	height: 600px;
+	}
+
+div.portfolio-piece5 {
+		background-color: #3e2182;
+		margin-top: 30px;
+		border: 5px solid black;
+		width: 70%;
+		height: 600px;
+	}
+
+.portfolio-text-head{
+	text-decoration: underline;	
+	}
+	
+.container {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+}	
+
+.portfolio-image{
+	object-fit: contain ;
+		width:70%;
+		height:400px;
+	}
+
+
+section.contact{
+	margin-top:30px;
+	padding-top: 10px;
+    width: 100%;
+    height: 150px;
+  	background-color:#322245;	
 }
 
 h2.contact {
 	margin-left:15px;
+	color: white;
+	text-decoration: underline;
+}
+p.contact{
+	color: white;
+}
+
+a.contact{
+	text-decoration: none;
+	color: white;
+}
+
+p.contact-intro{
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
 }
 
 section.contact-tidy{
@@ -113,7 +225,7 @@ section.contact-tidy{
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: space-between;
-	margin-left:15px;
+	margin-left:20px;
 	margin-right:15px;
 }
 
@@ -125,11 +237,9 @@ section.contact-tidy{
 	color: white;}
 	section.about{
 	 width: 100%;
-	 height: 1800px; 
-	 background-color: #3C0051;
-	.about-img{
-	  width:450px;
-	  height:600px;
-	  z-index:-10;}			   
-}
-
+	 height: 2000px; 
+	 background-color: #3C0051;}
+	 img.about-img{
+	 width: 95%;}
+	 
+	 
