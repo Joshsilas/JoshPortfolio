@@ -131,7 +131,7 @@ div.portfolio-piece1 {
 	margin-top: 30px;
 	border: 5px solid black;
 	width: 70%;
-	height: 500px;
+	height: 600px;
 	}
 
 div.portfolio-piece2 {
@@ -139,7 +139,7 @@ div.portfolio-piece2 {
 	margin-top: 30px;
 	border: 5px solid black;
 	width: 70%;
-	height: 500px;
+	height: 600px;
 	}
 
 div.portfolio-piece3 {
@@ -147,7 +147,7 @@ div.portfolio-piece3 {
 	margin-top: 30px;
 	border: 5px solid black;
 	width: 70%;
-	height: 500px;
+	height: 600px;
 	}
 
 div.portfolio-piece4 {
@@ -155,7 +155,15 @@ div.portfolio-piece4 {
 	margin-top: 30px;
 	border: 5px solid black;
 	width: 70%;
-	height: 500px;
+	height: 600px;
+	}
+
+div.portfolio-piece5 {
+		background-color: #3e2182;
+		margin-top: 30px;
+		border: 5px solid black;
+		width: 70%;
+		height: 600px;
 	}
 
 .portfolio-text{
@@ -171,7 +179,7 @@ div.portfolio-piece4 {
 }	
 
 .portfolio-image{
-		width:50%;
+		width:45%;
 		height:320px;
 	}
 
