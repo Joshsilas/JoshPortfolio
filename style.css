@@ -10,8 +10,9 @@ body {
 	margin-top:80px;
 	margin-left:0px;
 	margin-right:0px;
-
+	margin-bottom:0px;
 }
+
 header{
 	position: fixed;
 	top:0px;
@@ -36,8 +37,8 @@ section.intro{
 		align-items: center;
 		flex-direction: column;
 		width: 100%;
-		margin-bottom:200px;
-			
+		margin-bottom:250px;
+		gap: 18px;			
 }
 
 p.intro{
@@ -49,14 +50,15 @@ p.intro{
 	margin:0px;
 	align-items: center;
 	gap:0px;
-	
 }
+
 p.little-intro{
 	color: white;
 	font-size: 2rem;
 	display: flex;
 	justify-content: center;
 }
+
 div.about-catcher{
     width: 100%;
  	padding: 10px;
@@ -71,15 +73,15 @@ section.about{
 	    display: flex;
 	    flex-wrap: wrap;
 	    flex-direction: column;
-		position: relative;
-	
+		position: relative;	
 }
 
 .about-img{
-	width:450px;
+	width:500px;
 	height:600px;
 	position: absolute;
-	right: 50px;	
+	right: 50px;
+	top:60px;	
 }
 
 h2.about{
@@ -94,12 +96,14 @@ p.about{
 	font-size: 1.5rem;
 	margin-left:15px;
 }
+
 div.portfolio-catcher {
     width: 100%;
  	padding: 10px;
     background-color: #453952;
 	margin-top:50px;
 }
+
 section.portfolio-intro { width: 100%;
     height: 150px;
   	background-color:#453952;
@@ -183,15 +187,30 @@ div.portfolio-piece5 {
 		height:320px;
 	}
 
+
 section.contact{
     width: 100%;
-    height: 100px;
-  	background-color:#322245;
-	color: white;	
+    height: 150px;
+  	background-color:#322245;	
 }
 
 h2.contact {
 	margin-left:15px;
+	color: white;
+}
+p.contact{
+	color: white;
+}
+
+a.contact{
+	text-decoration: none;
+	color: white;
+}
+
+p.contact-intro{
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
 }
 
 section.contact-tidy{
@@ -201,7 +220,7 @@ section.contact-tidy{
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: space-between;
-	margin-left:15px;
+	margin-left:20px;
 	margin-right:15px;
 }
 
