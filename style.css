@@ -96,9 +96,8 @@ p.portfolio-intro {
 
 .portfolio {
 	display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
 }
 
 
@@ -108,20 +107,17 @@ p.portfolio-intro {
 	margin-top: 30px;
 	border: 5px solid black;
 	padding: 20px;
+	display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
 }
 
 a.portfolio-text {
 	font-size: 1.2rem;
 	object-fit: contain ;
 }
-	
-.portfolio-piece-contents {
-	display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-content: stretch;
-    align-items: center;
-}	
 
 .portfolio-image {
 	object-fit: contain ;
