@@ -12,7 +12,9 @@ body {
 	margin-right: 0px;
 	margin-bottom: 0px;
 }
-
+a, p, h1, h2, h3, h4, h5, h6{
+	color: white;
+}
 header {
 	position: fixed;
 	top: 0px;
@@ -24,7 +26,7 @@ header {
 	z-index: 1;
 }
 
-.nav {
+.id-section-bar {
 	font-size: 1.5rem;
 	color: white;
 	display: flex;
@@ -42,13 +44,11 @@ section.intro {
 }
 
 p.intro {
-	color: white;
 	font-size: 6rem;
 	margin: 0px;
 }
 
 h1 ,p.second-intro {
-	color: white;
 	font-size: 2rem;
 }
 
@@ -63,43 +63,29 @@ section.about {
 	background-color: #3C0051;
 	margin-top: 30px;
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-
-}
-
-.about-img {
-	width: 600px;
-	height: 600px;
-	object-fit: contain;	
-	margin-right: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;	
 }
 
 h2.about {
 	margin-left: 15px;
-	color: white;
 	font-size: 2rem;
 
 }
 
 p.about {
-	width: 60%;
-	color: white;
 	font-size: 1.5rem;
 	margin-left: 15px;
 }
 
-div.portfolio-catcher {
-    width: 100%;
- 	padding: 10px;
-    background-color: #453952;
-	margin-top: 50px;
-}
 
-section.portfolio-intro { width: 100%;
+section.portfolio-intro { 
+	margin-top: 100px;
+	width: 100%;
     height: 150px;
   	background-color: #453952;
-	color: white;	
+	border: 1px solid black;
 }
 
 h2.portfolio-intro {
@@ -108,7 +94,6 @@ h2.portfolio-intro {
 
 p.portfolio-intro {
 	margin-left: 15px;
-	color: white;
 	font-size: 1rem;
 }
 
@@ -118,37 +103,28 @@ section.portfolio {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-	color: white;
 }
 
 
 div.portfolio-piece {
+	width: 70%;
 	background-color: #3e2182;
 	margin-top: 30px;
 	border: 5px solid black;
-	width: 70%;
-	height: 800px;
-	}
-
-
-
-.portfolio-text-head {
-
-	}
+	padding: 20px;
+}
 
 a.portfolio-text {
-	color: white;
 	font-size: 1.2rem;
 	object-fit: contain ;
 }
 	
 .portfolio-piece-contents {
 	display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     align-content: stretch;
     align-items: center;
-	gap: 20px;
 }	
 
 .portfolio-image {
@@ -157,26 +133,16 @@ a.portfolio-text {
 	height: 400px;
 	}
 
-
 section.contact {
 	margin-top: 30px;
-	padding-top: 10px;
     width: 100%;
-    height: 150px;
   	background-color: #322245;	
+	padding: 10px;
+	border: 1px solid black;
 }
 
 h2.contact {
 	margin-left:  15px;
-	color: white;
-}
-p.contact {
-	color: white;
-}
-
-a.contact{ 
-	text-decoration: none;
-	color: white;
 }
 
 p.contact-intro {
@@ -185,28 +151,11 @@ p.contact-intro {
 	font-weight: bold;
 }
 
-section.contact-tidy {
-    margin-top: -20px;
+section.contact-contents {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: stretch;
     justify-content: space-between;
 	margin-left: 20px;
-	margin-right: 15px;
+	margin-right: 20px;
 }
-
-@media screen and (max-width: 1000px) {
-	section.contact {
-   width: 100%;
-    height: 300px;
-  	background-color: #322245;
-	color: white;}
-	section.about {
-	 width: 100%;
-	 height: 2000px; 
-	 background-color: #3C0051;}
-	 img.about-img {
-	 width: 95%;}
-	 
-	 
