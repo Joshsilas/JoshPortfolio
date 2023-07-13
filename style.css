@@ -1,9 +1,11 @@
 * {
 	box-sizing: border-box; 
 }
+
 html {
 	font-size: 20px; 
 }
+
 body {
 	background-color:#771668;
 	width: 100%;
@@ -15,8 +17,8 @@ body {
 
 a, p, h1, h2, h3, h4, h5, h6 {
 	color: white;
-	
 }
+
 header {
 	position: fixed;
 	top: 0px;
