@@ -1,122 +1,113 @@
-*{
+* {
 	box-sizing: border-box; 
 }
-html{
+html {
 	font-size: 20px; 
 }
 body {
 	background-color:#771668;
 	width: 100%;
-	margin-top:80px;
-	margin-left:0px;
-	margin-right:0px;
-	margin-bottom:0px;
+	margin-top: 80px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
 }
 
-header{
+header {
 	position: fixed;
-	top:0px;
-	left:0px;
+	top: 0px;
+	left: 0px;
 	background-color: #2d094f;
-	width:100%;
+	width: 100%;
 	padding: 10px;
-	border:3px solid black;
-	z-index:2;
+	border: 3px solid black;
+	z-index: 1;
 }
 
 .nav {
 	font-size: 1.5rem;
 	color: white;
 	display: flex;
-	gap:40px;
+	gap: 40px;
 	text-decoration: none;
 			
 }
-section.intro{
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-		width: 100%;
-		margin-bottom:250px;
-		gap: 18px;			
+section.intro {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	margin-bottom: 250px;
+	gap: 18px;			
 }
 
-p.intro{
+p.intro {
 	color: white;
 	font-size: 6rem;
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	margin:0px;
-	align-items: center;
-	gap:0px;
+	margin: 0px;
 }
 
-p.little-intro{
+h1 ,p.second-intro {
 	color: white;
 	font-size: 2rem;
-	display: flex;
-	justify-content: center;
 }
 
-div.about-catcher{
+.about-id-location{
     width: 100%;
  	padding: 10px;
     background-color: #3C0051;
 }
 
-section.about{
-	    width: 100%;
-	    height: 800px;
-	    background-color: #3C0051;
-	    margin-top: 30px;
-	    display: flex;
-	    flex-wrap: wrap;
-	    flex-direction: column;
+section.about {
+	width: 100%;
+	background-color: #3C0051;
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
 
 }
 
-.about-img{
-	width:600px;
-	height:600px;
-	object-fit:contain;	
+.about-img {
+	width: 600px;
+	height: 600px;
+	object-fit: contain;	
 	margin-right: 10px;
 }
 
-h2.about{
-	margin-left:15px;
+h2.about {
+	margin-left: 15px;
 	color: white;
 	font-size: 2rem;
-	text-decoration: underline;	
+
 }
 
-p.about{
-	width:60%;
+p.about {
+	width: 60%;
 	color: white;
 	font-size: 1.5rem;
-	margin-left:15px;
+	margin-left: 15px;
 }
 
 div.portfolio-catcher {
     width: 100%;
  	padding: 10px;
     background-color: #453952;
-	margin-top:50px;
+	margin-top: 50px;
 }
 
 section.portfolio-intro { width: 100%;
     height: 150px;
-  	background-color:#453952;
+  	background-color: #453952;
 	color: white;	
 }
 
 h2.portfolio-intro {
-	margin-left:15px;
-	text-decoration: underline;
+	margin-left: 15px;
 }
 
 p.portfolio-intro {
-	margin-left:15px;
+	margin-left: 15px;
 	color: white;
 	font-size: 1rem;
 }
@@ -131,115 +122,91 @@ section.portfolio {
 }
 
 
-div.portfolio-piece1 {
+div.portfolio-piece {
 	background-color: #3e2182;
 	margin-top: 30px;
 	border: 5px solid black;
 	width: 70%;
-	height: 600px;
+	height: 800px;
 	}
 
-div.portfolio-piece2 {
-	background-color: #3e2182;
-	margin-top: 30px;
-	border: 5px solid black;
-	width: 70%;
-	height: 600px;
+
+
+.portfolio-text-head {
+
 	}
 
-div.portfolio-piece3 {
-	background-color: #3e2182;
-	margin-top: 30px;
-	border: 5px solid black;
-	width: 70%;
-	height: 600px;
-	}
-
-div.portfolio-piece4 {
-	background-color: #3e2182;
-	margin-top: 30px;
-	border: 5px solid black;
-	width: 70%;
-	height: 600px;
-	}
-
-div.portfolio-piece5 {
-		background-color: #3e2182;
-		margin-top: 30px;
-		border: 5px solid black;
-		width: 70%;
-		height: 600px;
-	}
-
-.portfolio-text-head{
-	text-decoration: underline;	
-	}
+a.portfolio-text {
+	color: white;
+	font-size: 1.2rem;
+	object-fit: contain ;
+}
 	
-.container {
+.portfolio-piece-contents {
 	display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-content: stretch;
     align-items: center;
+	gap: 20px;
 }	
 
-.portfolio-image{
+.portfolio-image {
 	object-fit: contain ;
-		width:70%;
-		height:400px;
+	width: 70%;
+	height: 400px;
 	}
 
 
-section.contact{
-	margin-top:30px;
+section.contact {
+	margin-top: 30px;
 	padding-top: 10px;
     width: 100%;
     height: 150px;
-  	background-color:#322245;	
+  	background-color: #322245;	
 }
 
 h2.contact {
-	margin-left:15px;
+	margin-left:  15px;
 	color: white;
-	text-decoration: underline;
 }
-p.contact{
+p.contact {
 	color: white;
 }
 
-a.contact{
+a.contact{ 
 	text-decoration: none;
 	color: white;
 }
 
-p.contact-intro{
+p.contact-intro {
 	color: white;
 	font-size: 1rem;
 	font-weight: bold;
 }
 
-section.contact-tidy{
+section.contact-tidy {
     margin-top: -20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: space-between;
-	margin-left:20px;
-	margin-right:15px;
+	margin-left: 20px;
+	margin-right: 15px;
 }
 
 @media screen and (max-width: 1000px) {
-	section.contact{
+	section.contact {
    width: 100%;
     height: 300px;
-  	background-color:#322245;
+  	background-color: #322245;
 	color: white;}
-	section.about{
+	section.about {
 	 width: 100%;
 	 height: 2000px; 
 	 background-color: #3C0051;}
-	 img.about-img{
+	 img.about-img {
 	 width: 95%;}
 	 
 	 
