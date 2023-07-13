@@ -27,18 +27,14 @@ header {
 	width: 100%;
 	padding: 10px;
 	border: 3px solid black;
-	z-index: 1;
-}
-
-.id-section-bar {
+	z-index: 10;
 	font-size: 1.5rem;
 	color: white;
 	display: flex;
 	gap: 40px;
-	text-decoration: none;		
 }
 
-section.intro {
+.intro {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -56,7 +52,7 @@ p.second-intro {
 }
 
 
-div.about-piece{
+.about-piece{
 	width: 100%;
 	background-color: #3C0051;
 	margin-top: 30px;
@@ -77,40 +73,36 @@ p.about-contents {
 }
 
 
-img.about-image{
+.about-image{
 	object-fit: contain ;
 	width: 70%;
 	height: 500px;
-	display: flex;
+
 }
 
-section.portfolio-intro { 
+.portfolio-intro { 
 	margin-top: 100px;
 	width: 100%;
-    height: 150px;
   	background-color: #453952;
 	border: 1px solid black;
-}
-
-h2.portfolio-intro {
-	margin-left: 15px;
+	padding-left: 15px;
 }
 
 p.portfolio-intro {
 	margin-left: 15px;
+	margin-right:15px;
 	font-size: 1rem;
 }
 
-section.portfolio {
+.portfolio {
 	display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
     align-content: center;
 }
 
 
-div.portfolio-piece {
+.portfolio-piece {
 	width: 70%;
 	background-color: #3e2182;
 	margin-top: 30px;
@@ -155,7 +147,7 @@ p.contact-intro {
 	font-weight: bold;
 }
 
-section.contact-contents {
+.contact-contents {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
