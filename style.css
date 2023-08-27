@@ -1,0 +1,153 @@
+* {
+	box-sizing: border-box; 
+}
+
+html {
+	font-size: 20px; 
+}
+
+body {
+	background-color:#771668;
+	width: 100%;
+	margin-top: 200px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+a, p, h1, h2, h3, h4, h5, h6 {
+	color: white;
+}
+
+header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #2d094f;
+	width: 100%;
+	padding: 10px;
+	border: 3px solid black;
+	z-index: 10;
+	font-size: 1.5rem;
+	color: white;
+	display: flex;
+	gap: 40px;
+}
+
+.intro {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	margin-bottom: 500px;	
+}
+
+p.intro {
+	font-size: 6rem;
+	margin: 0px;
+}
+
+p.second-intro {
+	font-size: 2rem;
+}
+
+
+.about-piece{
+	width: 100%;
+	background-color: #3C0051;
+	margin-top: 30px;
+	border: 5px solid black;
+	padding: 50px;
+}
+
+.about-contents {
+	display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+}
+
+p.about-contents {
+	font-size: 1rem;
+}
+
+
+.about-image{
+	object-fit: contain ;
+	width: 70%;
+	height: 500px;
+
+}
+
+.portfolio-intro { 
+	margin-top: 100px;
+	width: 100%;
+  	background-color: #453952;
+	border: 1px solid black;
+	padding-left: 15px;
+}
+
+p.portfolio-intro {
+	margin-left: 15px;
+	margin-right:15px;
+	font-size: 1rem;
+}
+
+.portfolio {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.portfolio-piece {
+	width: 70%;
+	background-color: #3e2182;
+	margin-top: 30px;
+	border: 5px solid black;
+	padding: 20px;
+	display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: center;
+}
+
+a.portfolio-text {
+	font-size: 1.2rem;
+	object-fit: contain ;
+}
+
+.portfolio-image {
+	object-fit: contain ;
+	width: 70%;
+	height: 400px;
+}
+
+section.contact {
+	margin-top: 30px;
+    width: 100%;
+  	background-color: #322245;	
+	padding: 10px;
+	border: 1px solid black;
+}
+
+h2.contact {
+	margin-left: 15px;
+}
+
+p.contact-intro {
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.contact-contents {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	margin-left: 20px;
+	margin-right: 20px;
+}
