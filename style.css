@@ -9,10 +9,14 @@ html {
 body {
 	background-color:#771668;
 	width: 100%;
-	margin-top: 200px;
+	margin-top: 100px;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
+}
+
+.headerText:hover {
+	background-color: #6c319a;
 }
 
 a, p, h1, h2, h3, h4, h5, h6 {
@@ -39,7 +43,6 @@ header {
 	align-items: center;
 	flex-direction: column;
 	width: 100%;
-	margin-bottom: 500px;	
 }
 
 p.intro {
@@ -72,39 +75,38 @@ p.about-contents {
 	font-size: 1rem;
 }
 
-
 .about-image{
 	object-fit: contain ;
-	width: 70%;
+	width: 50%;
 	height: 500px;
-
 }
 
-.portfolio-intro { 
-	margin-top: 100px;
+.portfolio-intro {
 	width: 100%;
-  	background-color: #453952;
-	border: 1px solid black;
-	padding-left: 15px;
+  	background-color: #322245;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-p.portfolio-intro {
-	margin-left: 15px;
-	margin-right:15px;
-	font-size: 1rem;
+.gitHubImage{
+	width: 100px;
+	height: 50px;
 }
 
 .portfolio {
 	display: flex;
     flex-direction: column;
     align-items: center;
+	background-color: #210d4d;
 }
 
-
 .portfolio-piece {
-	width: 70%;
-	background-color: #3e2182;
+	width: 90%;
+	background-color: #60046e;
 	margin-top: 30px;
+	margin-bottom: 5px;
 	border: 5px solid black;
 	padding: 20px;
 	display: flex;
@@ -121,16 +123,16 @@ a.portfolio-text {
 
 .portfolio-image {
 	object-fit: contain ;
-	width: 70%;
+	margin-bottom: 5px;
+	width: 100%;
 	height: 400px;
 }
 
 section.contact {
-	margin-top: 30px;
     width: 100%;
   	background-color: #322245;	
 	padding: 10px;
-	border: 1px solid black;
+	border: 5px solid black;
 }
 
 h2.contact {
