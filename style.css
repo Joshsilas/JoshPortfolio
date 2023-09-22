@@ -7,7 +7,7 @@ html {
 }
 
 body {
-	background-color:#771668;
+	background-color: #44103d;
 	width: 100%;
 	margin-top: 100px;
 	margin-left: 0px;
@@ -54,7 +54,6 @@ p.second-intro {
 	font-size: 2rem;
 }
 
-
 .about-piece{
 	width: 100%;
 	background-color: #3C0051;
@@ -69,6 +68,7 @@ p.second-intro {
     flex-direction: column;
     align-content: stretch;
     align-items: center;
+	text-align: center;
 }
 
 p.about-contents {
@@ -88,6 +88,7 @@ p.about-contents {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	text-align: center;
 }
 
 .gitHubImage{
@@ -119,6 +120,7 @@ p.about-contents {
 a.portfolio-text {
 	font-size: 1.2rem;
 	object-fit: contain ;
+	text-align: center;
 }
 
 .portfolio-image {
