@@ -115,6 +115,7 @@ p.about-contents {
     flex-direction: column;
     align-content: stretch;
     align-items: center;
+	text-align: center;
 }
 
 a.portfolio-text {
