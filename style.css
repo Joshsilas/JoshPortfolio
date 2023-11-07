@@ -9,10 +9,7 @@ html {
 body {
 	background-color: #44103d;
 	width: 100%;
-	margin-top: 100px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
+	margin: 100px 0px 0px;
 }
 
 .headerText:hover {
@@ -43,6 +40,14 @@ header {
 	align-items: center;
 	flex-direction: column;
 	width: 100%;
+	animation-name: welcome;
+	animation-direction: normal;
+	animation-duration: 10s;
+}
+
+@keyframes welcome {
+	0% {opacity: 0;}
+	50% {opacity: 1;}
 }
 
 p.intro {
@@ -100,22 +105,25 @@ p.about-contents {
 
 .portfolio {
 	display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+	flex-wrap: wrap;
+    align-items: stretch;
+	justify-content: space-around;
 	background-color: #210d4d;
 }
 
 .portfolio-piece {
-	width: 90%;
+	width: 30%;
 	background-color: #60046e;
 	margin-top: 30px;
 	margin-bottom: 5px;
 	border: 5px solid black;
 	padding: 20px;
 	display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+	justify-content: center;
     align-items: center;
 	text-align: center;
 	border-radius: 150px;
@@ -131,7 +139,6 @@ a.portfolio-text {
 
 .portfolio-image {
 	object-fit: contain ;
-	margin-bottom: 5px;
 	width: 100%;
 	height: 400px;
 }
