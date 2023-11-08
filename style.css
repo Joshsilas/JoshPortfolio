@@ -123,7 +123,7 @@ p.about-contents {
 	display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-content: space-between;
+    align-content: center;
 	justify-content: center;
     align-items: center;
 	text-align: center;
@@ -131,6 +131,7 @@ p.about-contents {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1rem;
 }
+
 
 a.portfolio-text {
 	font-size: 1.2rem;
@@ -168,3 +169,31 @@ p.contact-intro {
 	margin-left: 20px;
 	margin-right: 20px;
 }
+
+.enlarger {
+	overflow: hidden;
+	transition: all .3s ease;
+}
+
+.enlarger.expand {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #443669;
+	border: 5px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: space-between;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 80px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	z-index: 9999;
+}
+
