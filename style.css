@@ -111,6 +111,9 @@ p.about-contents {
 	justify-content: space-around;
 	background-color: #210d4d;
 }
+.portfolio-piece:hover {
+	background-color: #6c319a;
+}
 
 .portfolio-piece {
 	width: 30%;
