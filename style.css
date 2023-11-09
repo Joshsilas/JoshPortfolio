@@ -9,11 +9,18 @@ html {
 body {
 	background-color: #44103d;
 	width: 100%;
-	margin: 100px 0px 0px;
+	/*margin: 100px 0px 0px;*/
 }
 
 .headerText:hover {
 	background-color: #6c319a;
+}
+
+.start-btn {
+	padding: 20px;
+	border: 3px solid #000000;
+	background-color: #8e48bb;
+	font-weight: bold;
 }
 
 a, p, h1, h2, h3, h4, h5, h6 {
@@ -39,10 +46,11 @@ header {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	margin-top: 100px;
 	width: 100%;
 	animation-name: welcome;
 	animation-direction: normal;
-	animation-duration: 10s;
+	animation-duration: 15s;
 }
 
 @keyframes welcome {
@@ -62,7 +70,7 @@ p.second-intro {
 .about-piece{
 	width: 100%;
 	background-color: #3C0051;
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 	border: 5px solid black;
 	padding: 50px;
 }
