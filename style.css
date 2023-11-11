@@ -211,7 +211,7 @@ p.contact-intro {
 @media only screen and (max-width: 767px) {
 		.portfolio-piece {
 			width: 100%; /* Full width on smaller screens */
-			border-radius: 0; /* Remove border-radius on smaller screens if needed */
+			border-radius: 10px; /* Remove border-radius on smaller screens if needed */
 			font-size: 0.8rem; /* Adjust the font size for smaller screens */
 		}
 	.enlarger.expand {
