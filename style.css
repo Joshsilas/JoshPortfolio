@@ -220,7 +220,7 @@ p.contact-intro {
 		font-size: 0.8rem; /* Adjust the font size for smaller screens */
 	}
 	header {
-		font-size: 1.5rem; /* Maintain the same font size on smaller screens */
+		font-size: 1rem; /* Maintain the same font size on smaller screens */
 	}
 	.about-image{
 		object-fit: contain ;
@@ -228,7 +228,7 @@ p.contact-intro {
 		height: 500px;
 	}
 	body {
-		margin-top: 60px; /* Adjust margin-top to make room for the fixed header */
+		margin-top: 40px; /* Adjust margin-top to make room for the fixed header */
 	}
 }
 
