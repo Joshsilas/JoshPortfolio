@@ -219,6 +219,17 @@ p.contact-intro {
 		padding: 10px; /* Adjust padding for smaller screens */
 		font-size: 0.8rem; /* Adjust the font size for smaller screens */
 	}
+	header {
+		font-size: 1.5rem; /* Maintain the same font size on smaller screens */
+	}
+	.about-image{
+		object-fit: contain ;
+		width: 100%;
+		height: 500px;
+	}
+	body {
+		margin-top: 60px; /* Adjust margin-top to make room for the fixed header */
+	}
 }
 
 
