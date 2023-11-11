@@ -209,18 +209,22 @@ p.contact-intro {
 }
 
 @media only screen and (max-width: 767px) {
-		.portfolio-piece {
-			width: 100%; /* Full width on smaller screens */
-			border-radius: 10px; /* Remove border-radius on smaller screens if needed */
-			font-size: 0.8rem; /* Adjust the font size for smaller screens */
-		}
+	.portfolio-piece {
+		width: 100%;
+		border-radius: 10px;
+		font-size: 0.8rem;
+	}
 	.enlarger.expand {
-		width: 90%; /* Adjust the width for smaller screens */
-		padding: 10px; /* Adjust padding for smaller screens */
-		font-size: 0.8rem; /* Adjust the font size for smaller screens */
+		width: 90%;
+		padding: 10px;
+		font-size: 0.8rem;
 	}
 	header {
-		font-size: 1rem; /* Maintain the same font size on smaller screens */
+		font-size: 1rem;
+		display: flex;
+		gap: 20px;
+		flex-direction: row;
+		justify-content: space-between;
 	}
 	.about-image{
 		object-fit: contain ;
@@ -228,24 +232,7 @@ p.contact-intro {
 		height: 500px;
 	}
 	body {
-		margin-top: 40px; /* Adjust margin-top to make room for the fixed header */
+		margin-top: 40px;
 	}
 }
 
-
-/*	.portfolio-piece {*/
-/*		font-size: 26px;*/
-/*	}*/
-/*	.about-contents {*/
-/*		font-size: 1.5rem;*/
-/*	}*/
-/*	.about-image {*/
-/*		width: 80%;*/
-/*	}*/
-/*}*/
-/*	}*/
-/*	.intro {*/
-/*		margin-top: 20%;*/
-/*		font-size: 2rem;*/
-/*	}*/
-/*}*/
