@@ -7,13 +7,13 @@ html {
 }
 
 body {
-	background-color: #44103d;
+	background-color: #150e2d;
 	width: 100%;
 	/*margin: 100px 0px 0px;*/
 }
 
 .headerText:hover {
-	background-color: #6c319a;
+	background-color: #443669;
 }
 
 .start-btn {
@@ -24,7 +24,7 @@ body {
 }
 
 a, p, h1, h2, h3, h4, h5, h6 {
-	color: white;
+	color: #ffffff;
 }
 
 header {
@@ -36,7 +36,7 @@ header {
 	padding: 15px;
 	border: 3px solid black;
 	z-index: 10;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	color: white;
 	display: flex;
 	align-items: center;
@@ -84,10 +84,10 @@ p.second-intro {
 
 .about-piece {
 	width: 100%;
-	background-color: #6D1E62;
+	background-color: #492047;
 	padding-top: 140px;
 	padding-bottom: 100px;
-	border: 5px solid #1E1E1E;
+	border: 5px solid #000000;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content:space-evenly;;
@@ -130,8 +130,14 @@ p.about-contents {
 	margin-top: 30px;
 }
 
+.portPosition {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
 .portfolio-intro {
-	width: 100%;
+	width: 50%;
 	background-color: #150e2d;
 	border: 2px solid #150e2d;
 	display: flex;
@@ -158,12 +164,12 @@ p.about-contents {
 }
 
 .portfolio-piece:hover {
-	background-color: #6c319a;
+	background-color: #443669;
 }
 
 .portfolio-piece {
 	width: 30%;
-	background-color: #6D1E62;
+	background-color: #39274b;
 	margin-top: 30px;
 	margin-bottom: 5px;
 	border: 5px solid black;
@@ -190,6 +196,7 @@ a.portfolio-text {
 .portfolio-image {
 	object-fit: contain ;
 	width: 100%;
+	border-radius: 10px;
 }
 
 section.contact {
