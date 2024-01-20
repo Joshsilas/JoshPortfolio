@@ -5,4 +5,13 @@ document.querySelectorAll('.portfolio-piece').forEach(portfolioPiece => {
     });
 });
 
+    function toggleText(event) {
+    event.stopPropagation();
+    var additionalText = document.querySelector('.additional-text-container');
+    additionalText.style.display = (additionalText.style.display === 'none' || additionalText.style.display === '') ? 'block' : 'none';
+}
+
+    function stopPropagation(event) {
+    event.stopPropagation();
+}
 
