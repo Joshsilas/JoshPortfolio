@@ -1,6 +1,11 @@
 
 document.querySelectorAll('.portfolio-piece').forEach(portfolioPiece => {
     portfolioPiece.addEventListener('click', function (event) {
+        const isExpanded = this.querySelector('.enlarger').classList.contains('expand');
+        const otherExpanders = document.querySelectorAll('.enlarger.expand');
+        if (otherExpanders.length > 0 && !isExpanded) {
+            return;
+        }
         this.querySelector('.enlarger').classList.toggle('expand');
     });
 });

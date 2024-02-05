@@ -237,19 +237,19 @@ p.contact-intro {
 	transform: translate(-50%, -50%);
 	background-color: #443669;
 	border: 5px solid black;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 20px;
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: row;
-	align-content: space-between;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	border-radius: 80px;
+	border-radius: 30px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1rem;
 	z-index: 9999;
+	max-width: 80%;
+	max-height: 80%;
+	overflow: auto;
 }
 
 @media only screen and (max-width: 767px) {
