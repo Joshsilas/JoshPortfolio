@@ -31,7 +31,7 @@ header {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background-color: #7d5e9f;
+	background-color: #4f4362;
 	width: 100%;
 	padding: 15px;
 	border: 3px solid black;
@@ -129,6 +129,18 @@ p.about-contents {
 	border-radius: 12px;
 	margin-top: 30px;
 }
+.about-image:hover
+{
+	animation: wiggle 0.5s ease-in-out;
+}
+
+@keyframes wiggle {
+	0% { transform: rotate(0deg); }
+	25% { transform: rotate(1deg); }
+	50% { transform: rotate(-1deg); }
+	75% { transform: rotate(1deg); }
+	100% { transform: rotate(0deg); }
+}
 
 .portPosition {
 	display: flex;
@@ -165,6 +177,7 @@ p.about-contents {
 
 .portfolio-piece:hover {
 	background-color: #443669;
+	cursor: pointer;
 }
 
 .portfolio-piece {
@@ -201,7 +214,7 @@ a.portfolio-text {
 
 section.contact {
     width: 100%;
-  	background-color: #7d5e9f;
+	background-color: #4f4362;
 	padding: 10px;
 	border: 5px solid black;
 }
@@ -253,6 +266,12 @@ p.contact-intro {
 }
 
 @media only screen and (max-width: 767px) {
+
+	.about-contents
+	{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
 	.portfolio-piece {
 		width: 100%;
 		border-radius: 10px;
