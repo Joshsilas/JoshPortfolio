@@ -7,6 +7,9 @@ document.querySelectorAll('.portfolio-piece').forEach(portfolioPiece => {
             return;
         }
         this.querySelector('.enlarger').classList.toggle('expand');
+
+        const additionalText = this.querySelector('.expanded-info');
+        additionalText.style.display = isExpanded ? 'none' : 'block';
     });
 });
 
@@ -21,11 +24,11 @@ githubLinks.forEach(githubLink => {
 })
 
 
-        function toggleText(event) {
-            event.stopPropagation();
-            var additionalText = document.querySelector('.additional-text-container');
-            additionalText.style.display = (additionalText.style.display === 'none' || additionalText.style.display === '') ? 'block' : 'none';
-        }
+        // function toggleText(event) {
+        //     event.stopPropagation();
+        //     let additionalText = document.querySelector('.expanded-info');
+        //     additionalText.style.display = (additionalText.style.display === 'none' || additionalText.style.display === '') ? 'block' : 'none';
+        // }
 
 
 
