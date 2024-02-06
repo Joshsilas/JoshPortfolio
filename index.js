@@ -10,6 +10,9 @@ document.querySelectorAll('.portfolio-piece').forEach(portfolioPiece => {
 
         const additionalText = this.querySelector('.expanded-info');
         additionalText.style.display = isExpanded ? 'none' : 'block';
+
+        const portfolioImage = this.querySelector('.portfolio-image');
+        portfolioImage.style.display = isExpanded ? 'block' : 'none';
     });
 });
 

@@ -206,11 +206,23 @@ a.portfolio-text {
 	text-align: center;
 }
 
+.journey-text
+{
+	color: white;
+}
 .portfolio-image {
 	object-fit: contain ;
 	width: 100%;
 	border-radius: 10px;
 }
+
+.expanded-portfolio-image
+{
+	object-fit: contain ;
+	width: 100%;
+	border-radius: 10px;
+}
+
 
 section.contact {
     width: 100%;
