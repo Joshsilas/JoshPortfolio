@@ -11,18 +11,23 @@ document.querySelectorAll('.portfolio-piece').forEach(portfolioPiece => {
         const additionalText = this.querySelector('.expanded-info');
         additionalText.style.display = isExpanded ? 'none' : 'block';
 
-        const portfolioImage = this.querySelector('.portfolio-image');
-        portfolioImage.style.display = isExpanded ? 'block' : 'none';
-    });
-});
+        const portfolioImageDisappear = this.querySelector('.portfolio-image-disappear');
+        portfolioImageDisappear.style.display = isExpanded ? 'block' : 'none';
+
+        const portfolioTextDisappear = this.querySelectorAll('.portfolio-text-disappear');
+        portfolioTextDisappear.forEach(element => {
+            element.style.display = isExpanded ? 'block' : 'none';
+        });
 
 
-const githubLinks = document.querySelectorAll('.gitHubImage');
+        const githubLinks = document.querySelectorAll('.gitHubImage');
 
-githubLinks.forEach(githubLink => {
-    githubLink.addEventListener('click', function (event) {
-        event.stopPropagation();
-        console.log('GitHub link clicked');
+        githubLinks.forEach(githubLink => {
+            githubLink.addEventListener('click', function (event) {
+                event.stopPropagation();
+                console.log('GitHub link clicked');
+            })
+        })
     })
 })
 

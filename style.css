@@ -206,11 +206,20 @@ a.portfolio-text {
 	text-align: center;
 }
 
+.portfolio-text-disappear
+
 .journey-text
 {
 	color: white;
 }
 .portfolio-image {
+	object-fit: contain ;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.portfolio-image-disappear
+{
 	object-fit: contain ;
 	width: 100%;
 	border-radius: 10px;
