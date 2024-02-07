@@ -19,7 +19,6 @@ document.querySelectorAll('.portfolio-piece').forEach(portfolioPiece => {
             element.style.display = isExpanded ? 'block' : 'none';
         });
 
-
         const githubLinks = document.querySelectorAll('.gitHubImage');
 
         githubLinks.forEach(githubLink => {
