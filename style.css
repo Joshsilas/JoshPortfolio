@@ -250,6 +250,13 @@ p.contact-intro {
 	font-weight: bold;
 }
 
+.cvImage
+{
+	display: flex;
+	flex-direction: row;
+	width: 100px;
+	height: 50px;
+}
 .contact-contents {
     display: flex;
     flex-direction: row;
